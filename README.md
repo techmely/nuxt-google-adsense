@@ -14,14 +14,14 @@
 > Google AdSense integration for Nuxt.js. Advertisements will update whenever the page route changes
 
 ## Setup
-- Add `@nuxtjs/google-adsense` dependency using yarn or npm to your project
-- Add `@nuxtjs/google-adsense` to `modules` section of `nuxt.config.js`
+- Add `nuxt-google-adsense` dependency using yarn or npm to your project
+- Add `nuxt-google-adsense` to `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
     // Simple usage
-    ['@nuxtjs/google-adsense', {
+    ['nuxt-google-adsense', {
       id: 'ca-pub-###########'
     }]
  ]
@@ -33,7 +33,7 @@ Using top level options:
 ```js
 {
   modules: [
-    ['@nuxtjs/google-adsense']
+    ['nuxt-google-adsense']
   ],
 
  googleAdsense: {
@@ -47,7 +47,7 @@ Using runtime config:
 ```js
 {
   modules: [
-    ['@nuxtjs/google-adsense']
+    ['nuxt-google-adsense']
   ],
 
   googleAdsense: {
@@ -161,14 +161,14 @@ on the `<Adsbygoogle />` component.
 
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/google-adsense/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/@nuxtjs/google-adsense
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-google-adsense/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/nuxt-google-adsense
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/@nuxtjs/google-adsense.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-google-adsense.svg?style=flat&colorA=18181B&colorB=28CF8D
 [npm-downloads-href]: https://npmjs.com/package/@nuxtjs/google-adsene
 
-[license-src]: https://img.shields.io/npm/l/@nuxtjs/google-adsense.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/@nuxtjs/google-adsense
+[license-src]: https://img.shields.io/npm/l/nuxt-google-adsense.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/nuxt-google-adsense
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com

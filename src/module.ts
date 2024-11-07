@@ -26,7 +26,7 @@ const TEST_ID = 'ca-google'
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: '@nuxtjs/google-adsense',
+    name: 'nuxt-google-adsense',
     configKey: 'googleAdsense',
     compatibility: {
       nuxt: '^3.X.X',
