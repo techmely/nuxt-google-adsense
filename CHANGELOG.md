@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v1.1.0
+
+
+### 🚀 Enhancements
+
+- Upgrade lib ([fc02f3f](https://github.com/techmely/nuxt-google-adsense/commit/fc02f3f))
+
+### 🏡 Chore
+
+- Update lib ([40661ea](https://github.com/techmely/nuxt-google-adsense/commit/40661ea))
+- Fix lint ([8e64087](https://github.com/techmely/nuxt-google-adsense/commit/8e64087))
+
+### ❤️ Contributors
+
+- Hoapn <hoapham@coinsavi.com>
+
 ## v3.0.0
 
 [compare changes](https://github.com/nuxt-modules/google-adsense/compare/v2.1.0...v3.0.0)
