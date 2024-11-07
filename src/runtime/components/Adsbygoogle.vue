@@ -4,13 +4,7 @@
 import type { AdFormats } from '../../module'
 import { useAdsense } from '#imports'
 
-const {
-  adClient,
-  analyticsDomainName,
-  analyticsUacct,
-  hideUnfilled,
-  includeQuery,
-} = withDefaults(defineProps<{
+interface Props {
   adClient?: string
   adSlot?: string | null
   adFormat?: AdFormats | string
@@ -23,8 +17,9 @@ const {
   analyticsUacct?: string
   analyticsDomainName?: string
   includeQuery?: boolean
-}>(),
-{
+}
+
+const props = withDefaults(defineProps<Props>(), {
   adFullWidthResponsive: false,
   adLayout: null,
   adLayoutKey: null,
@@ -50,11 +45,11 @@ const {
   updateAd,
   showAd,
 } = useAdsense({
-  adClient,
-  analyticsDomainName,
-  analyticsUacct,
-  hideUnfilled,
-  includeQuery,
+  adClient: props.adClient,
+  analyticsDomainName: props.analyticsDomainName,
+  analyticsUacct: props.analyticsUacct,
+  hideUnfilled: props.hideUnfilled,
+  includeQuery: props.includeQuery,
 })
 
 // expose to parent for customization
